@@ -1,16 +1,17 @@
 // Reverse a string
 
-// Using recursion
-function reverse( str ) {
-  if ( str.length <= 1 ) {
-    return str;
-  }
-  return reverse( str.substr( 1 ) ) + str[ 0 ];
+// Basic
+function reverse(str) {
+  return str.split('').reverse().join('');
 }
 
-// FP
+// Using recursion
 function reverseTwo(str) {
-  return str.split('').reverse().join('');
+  if (str.length <= 1) {
+    return str;
+  }
+
+  return reverse(str.substr(1)) + str[0];
 }
 
 // For loop

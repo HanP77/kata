@@ -1,3 +1,5 @@
+// https://www.hackerrank.com/challenges/mark-and-toys/problem?h_l=interview&playlist_slugs%5B%5D%5B%5D=interview-preparation-kit&playlist_slugs%5B%5D%5B%5D=sorting
+
 const array = [1, 12, 5, 111, 200, 1000, 10];
 const money = 50;
 // const array = [ 4, 3, 2, 1 ];

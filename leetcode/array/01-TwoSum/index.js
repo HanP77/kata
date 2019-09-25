@@ -1,3 +1,5 @@
+// https://leetcode.com/problems/two-sum/description//
+
 const nums = [2, 7, 11, 15];
 const target = 9;
 
@@ -8,13 +10,12 @@ const twoSum = function(nums, target) {
     let complement = target - nums[i];
 
     if (hashTable.hasOwnProperty(complement)) {
-
       return [hashTable[complement], i];
     }
     hashTable[nums[i]] = i;
   }
 
-  return `No solutions`
+  return `No solutions`;
 };
 
 // twoSum(nums, target);
